@@ -1,0 +1,40 @@
+.PicText__wrapper {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .PicText__wrapper {
+        display: flex;
+    }
+}
+
+.PicText__title {
+    margin: 0 0 30px;
+    color: var(--basic-black);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: -1.08px;
+    text-align: left;
+}
+
+.PicText__text {
+    margin: 0;
+    color: var(--basic-grey);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.PicText__img {
+    margin: 20px auto 0;
+    width: 350px;
+}
+
+@media (min-width: 1160px) {
+    .PicText__img {
+        width: 550px;
+    }
+}

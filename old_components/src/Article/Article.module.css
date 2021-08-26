@@ -1,0 +1,12 @@
+.article {
+    margin-bottom: 50px;
+}
+
+.article h3 {
+    font-size: 18px;
+    color: var(--basic-black);
+}
+
+.article p {
+    color: var(--basic-grey);
+}

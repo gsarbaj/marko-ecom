@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar"
 import Footer from "./Footer"
 
 import "../assets/css/main.css"
-import "../assets/css/antd.css"
+// import "../assets/css/antd.css"
 
 
 const Layout = ({ children }) => {

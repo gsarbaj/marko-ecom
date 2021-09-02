@@ -1,5 +1,4 @@
 import React from 'react';
-import classes from './PicText.module.css'
 
 const PicText = props => {
   return(

@@ -9,13 +9,20 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Seo from "../components/Seo"
+import Article from "../components/Article"
+import FormSection from "../components/FormSection"
 const IndexPage = () => {
   return (
     <>
+
+      <Seo title="Марко" />
+
       <Hero/>
       <ProductTypes />
       <Description />
       <LineForm />
+      <FormSection/>
+      <Article/>
     </>
   )
 }

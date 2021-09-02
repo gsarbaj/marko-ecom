@@ -13,7 +13,7 @@ const Nav = props => {
     <div className={'nav'}>
       <div className={'usermenu'}>
         <Link to={'/'}>
-          <img src={logo} alt={'Обувь оптом от производителя'} width={'217'} height={'48'} />
+          <img src={logo} alt={'Обувь оптом от производителя'} width={'217'} height={'48'} className="logo"/>
         </Link>
         <Search
           placeholder="Поиск..."
@@ -21,6 +21,7 @@ const Nav = props => {
           enterButton
           onSearch={onSearch}
           style={{ width: 300 }}
+          className="search-field"
         />
         {/*<input className={'searchform__input'} type="search" results={5} placeholder={"Поиск..."}/>*/}
         <ul>

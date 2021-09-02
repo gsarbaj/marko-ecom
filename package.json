@@ -14,8 +14,11 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.3",
     "antd": "^4.16.13",
     "gatsby": "^3.2.1",
+    "gatsby-plugin-google-gtag": "^3.13.0",
+    "gatsby-plugin-google-tagmanager": "^3.13.0",
     "gatsby-plugin-image": "^1.2.1",
     "gatsby-plugin-react-helmet": "^4.2.0",
     "gatsby-plugin-sharp": "^3.2.1",

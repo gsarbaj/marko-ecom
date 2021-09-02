@@ -6,8 +6,24 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata:{
+    title: `Обувь Оптом`,
+    description: `Обувь оптом от производителя компании Марко`,
+    titleTemplate: `%s | Обувь Оптом`,
+    url: `https://marko-opt.ru`,
+    image:`/mainimg.png`,
+    twitterUsername: '@GenrichSarbaj'
+  },
 
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-MRZX2GB",
+        includeInDevelopment: false,
+        enableWebVitalsTracking: true,
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
